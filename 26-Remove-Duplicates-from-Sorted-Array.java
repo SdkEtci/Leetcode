@@ -1,7 +1,7 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 1)
-			return nums[0];
+			return 1;
 		
 		int temp = nums[0];
 		int total = nums.length;
